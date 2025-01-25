@@ -75,3 +75,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 ## Projects
 - Detection Lab
 - SOC Automation Project
+
+## CTF's and Upcoming Projects
+
+[![THOTCON](https://www.thotcon.org/)](https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png)
