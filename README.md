@@ -13,7 +13,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 
 ## Skills
-![QA](https://img.shields.io/badge/QA%20Engineer-green?style=for-the-badge&logo=qa)
+![QA](https://img.shields.io/badge/Quality%20Assurance-green?style=for-the-badge)
 
 
 | Skill                                         | Associated Project         |
@@ -25,7 +25,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 | Case Management with TheHive                  | SOC Automation Lab|
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
-![BLUE](https://img.shields.io/badge/Blue%20Teamer-blue?style=for-the-badge&logo=qa)
+![BLUE](https://img.shields.io/badge/Defensive%20Security-blue?style=for-the-badge)
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
@@ -36,7 +36,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 | Case Management with TheHive                  | SOC Automation Lab|
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
-![RED](https://img.shields.io/badge/Red%20Teamer-red?style=for-the-badge&logo=qa)
+![RED](https://img.shields.io/badge/Offensive%20Security-red?style=for-the-badge)
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
