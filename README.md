@@ -57,6 +57,9 @@ My journey in computer science has led me to develop a passion for cybersecurity
 <img src="https://img.shields.io/badge/CRTO-black?style=for-the-badge&logoColor=%23ff6633&labelColor=black&link=https%3A%2F%2Ftraining.zeropointsecurity.co.uk%2Fcourses%2Fred-team-ops" />
 </div>
 
+[![GitHub Portfolio](https://img.shields.io/badge/Portfolio-Explore%20Now-brightgreen)](https://github.com/yourusername)
+
+
 ## Projects
 - Detection Lab
 - SOC Automation Project
