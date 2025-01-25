@@ -37,6 +37,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
 ![RED](https://img.shields.io/badge/Offensive%20Security-red?style=for-the-badge)
+
 | Raspberri Pi |                        |
 | ------------ | ---------------------- |
 | **Skill**    | **Project**            |
@@ -44,6 +45,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 |              | Pwnagotchi             |
 |              | Rubber Ducky (Hotplug) |
 |              | Password Cracking Rig  |
+
 ## Languages and Tools
 
 ![Kali](https://img.shields.io/badge/Kali-black?style=for-the-badge&logo=kalilinux&labelColor=white)
