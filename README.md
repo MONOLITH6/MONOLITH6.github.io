@@ -36,7 +36,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 
 ## Languages and Tools
 
-![Kali](https://img.shields.io/badge/Kali-black?style=for-the-badge&logo=kalilinux&labelColor=white&link=https%3A%2F%2Ftraining.zeropointsecurity.co.uk%2Fcourses%2Fred-team-ops)
+![Kali](https://img.shields.io/badge/Kali-black?style=for-the-badge&logo=kalilinux&labelColor=white)
 
 
 ### Network
