@@ -38,13 +38,31 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 ![RED](https://img.shields.io/badge/Offensive%20Security-red?style=for-the-badge)
 
-| Raspberri Pi |                        |
-| ------------ | ---------------------- |
-| **Skill**    | **Project**            |
-|              | TOR Router             |
-|              | Pwnagotchi             |
-|              | Rubber Ducky (Hotplug) |
-|              | Password Cracking Rig  |
+| Skill                                         | Associated Project         |
+|-----------------------------------------------|----------------------------|
+| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | SOC Automation Lab|
+| Incident Response Planning and Execution      | SOC Automation Lab|
+| Case Management with TheHive                  | SOC Automation Lab|
+| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+
+
+
+
+![Raspberry](https://img.shields.io/badge/Raspberry%20Pi-%23A22846?style=for-the-badge&logo=raspberrypi&labelColor=black)
+
+| **Skill** | **Project**            |
+| --------- | ---------------------- |
+|           | TOR Router             |
+|           | Pwnagotchi             |
+|           | Rubber Ducky (Hotplug) |
+|           | Password Cracking Rig  |
+|           | NAS                    |
+|           | NIDS                   |
+|           | Password Generator     |
+|           | Encrypted Messenger    |
+|           | Pi-VPN                 |
 
 ## Languages and Tools
 
