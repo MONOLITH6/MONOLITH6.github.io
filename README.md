@@ -1,16 +1,11 @@
-# Hello, I'm CHANGEME
-<a href="https://linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# Hello, I'm MONOLITH6
+<a href="https://www.linkedin.com/in/robertvoronko/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-[Brief Introduction - Remove this afterwards]
-
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
-
+QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 
 ## Objective
-[Provide Objective - Remove this afterwards]]
-
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+A cybersecurity professional specializing in network and we b penetration testing and threat analysis.
 
 ## Certifications
 [![Custom Badge](https://cdn.prod.website-files.com/617158a4a2f9b7827f1ad102/65a8e4e14be2b6b1e170d354_beetroot.svg)](https://beetrootacademy.com/)
