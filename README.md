@@ -5,6 +5,13 @@
 
 I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
 
+
+
+## Objective
+[Provide Objective - Remove this afterwards]]
+
+My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+
 ## Certifications
 [Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
 
@@ -14,11 +21,6 @@ I am a recent graduate with a profound interest in technology and a dedication t
 [![SecurityPlus](https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white)](https://www.comptia.org/faq/security/what-is-comptia-security-certification)
 [![BSCP Certification](https://img.shields.io/badge/BSCP-%23ff6633?style=for-the-badge&logo=Burp%20Suite&logoColor=%23ff6633&labelColor=black)](https://portswigger.net/web-security/certification)
 
-
-## Objective
-[Provide Objective - Remove this afterwards]]
-
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
 
 ## Skills
 [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
