@@ -1,4 +1,4 @@
-# Hello, I'm MONOLITH6
+# Hello, I'm Robert Voronko
 <a href="https://www.linkedin.com/in/robertvoronko/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 QA Engineer | SOC Analyst in Training | Red Team Practitioner
@@ -14,9 +14,29 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 ## Skills
 ![QA](https://img.shields.io/badge/QA%20Engineer-green?style=for-the-badge&logo=qa)
-![BLUE](https://img.shields.io/badge/Blue%20Teamer-blue?style=for-the-badge&logo=qa)
-![RED](https://img.shields.io/badge/Red%20Teamer-red?style=for-the-badge&logo=qa)
 
+
+| Skill                                         | Associated Project         |
+|-----------------------------------------------|----------------------------|
+| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | SOC Automation Lab|
+| Incident Response Planning and Execution      | SOC Automation Lab|
+| Case Management with TheHive                  | SOC Automation Lab|
+| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+
+![BLUE](https://img.shields.io/badge/Blue%20Teamer-blue?style=for-the-badge&logo=qa)
+
+| Skill                                         | Associated Project         |
+|-----------------------------------------------|----------------------------|
+| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | SOC Automation Lab|
+| Incident Response Planning and Execution      | SOC Automation Lab|
+| Case Management with TheHive                  | SOC Automation Lab|
+| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+
+![RED](https://img.shields.io/badge/Red%20Teamer-red?style=for-the-badge&logo=qa)
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
