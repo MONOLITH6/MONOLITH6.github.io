@@ -12,7 +12,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 [![BSCP Certification](https://img.shields.io/badge/BSCP-%23ff6633?style=for-the-badge&logo=Burp%20Suite&logoColor=%23ff6633&labelColor=black)](https://portswigger.net/web-security/certification)
 
 
-## Skills
+## Projects
 ![QA](https://img.shields.io/badge/Quality%20Assurance-green?style=for-the-badge)
 
 
@@ -37,15 +37,13 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
 ![RED](https://img.shields.io/badge/Offensive%20Security-red?style=for-the-badge)
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
-
+| Raspberri Pi |                        |
+| ------------ | ---------------------- |
+| **Skill**    | **Project**            |
+|              | TOR Router             |
+|              | Pwnagotchi             |
+|              | Rubber Ducky (Hotplug) |
+|              | Password Cracking Rig  |
 ## Languages and Tools
 
 ![Kali](https://img.shields.io/badge/Kali-black?style=for-the-badge&logo=kalilinux&labelColor=white)
@@ -76,9 +74,9 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 - Detection Lab
 - SOC Automation Project
 
-## CTF's and Upcoming Projects
+## CTF's and Upcoming Events
 
-May 30-31st THOTCON 0xD
+⏳ May 30-31st THOTCON 0xD
 [![THOTCON](https://www.thotcon.org/)](https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png)
 
 <a href="https://www.thotcon.org/">
