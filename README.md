@@ -53,7 +53,11 @@ My journey in computer science has led me to develop a passion for cybersecurity
 [![HTB:CPTS](https://img.shields.io/badge/CPTS-green?style=for-the-badge&logo=HackTheBox&labelColor=black)](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist)
 [![SecurityPlus](https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white)](https://www.comptia.org/faq/security/what-is-comptia-security-certification)
 [![BSCP Certification](https://img.shields.io/badge/BSCP-%23ff6633?style=for-the-badge&logo=Burp%20Suite&logoColor=%23ff6633&labelColor=black)](https://portswigger.net/web-security/certification)
-[![Custom Badge](https://media.eu.badgr.com/uploads/badges/810fb737-3709-422a-9544-e8329e6f9eb7.png)](https://your-desired-link.com)
+
+<a href="https://your-desired-link.com">
+  <img src="https://media.eu.badgr.com/uploads/badges/810fb737-3709-422a-9544-e8329e6f9eb7.png" alt="Custom Badge" style="width: 150px; height: auto;">
+</a>
+
 
 
 ## Projects
