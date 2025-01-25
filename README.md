@@ -47,15 +47,6 @@ My journey in computer science has led me to develop a passion for cybersecurity
 
 ## Certifications
 [Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/CPTS-green?style=for-the-badge&logo=HackTheBox&labelColor=black&link=https%3A%2F%2Fwww.google.com%2F" />
-<img src ="https://img.shields.io/badge/BSCP-%23ff6633?style=for-the-badge&logo=bURP%20Suite&logoColor=%23ff6633&labelColor=black&link=https%3A%2F%2Fportswigger.net%2Fweb-security%2Fcertification" />
-<img src="https://img.shields.io/badge/CRTO-black?style=for-the-badge&logoColor=%23ff6633&labelColor=black&link=https%3A%2F%2Ftraining.zeropointsecurity.co.uk%2Fcourses%2Fred-team-ops" />
-</div>
 
 [![CTRO](https://img.shields.io/badge/CRTO-black?style=for-the-badge&logoColor=%23ff6633&labelColor=black)](https://training.zeropointsecurity.co.uk/courses/red-team-ops)
 [![HTB:CPTS](https://img.shields.io/badge/CPTS-green?style=for-the-badge&logo=HackTheBox&labelColor=black)](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist)
