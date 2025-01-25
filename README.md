@@ -34,8 +34,10 @@ My journey in computer science has led me to develop a passion for cybersecurity
 | Case Management with TheHive                  | SOC Automation Lab|
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
-## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
+## Languages and Tools
+
+[![Kali](https://img.shields.io/badge/Kali-black?style=for-the-badge&logo=kalilinux&labelColor=white&link=https%3A%2F%2Ftraining.zeropointsecurity.co.uk%2Fcourses%2Fred-team-ops)]
+
 
 ### Network
 <div>
