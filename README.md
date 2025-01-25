@@ -53,11 +53,9 @@ My journey in computer science has led me to develop a passion for cybersecurity
 <img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/CPTS-green?style=for-the-badge&logo=HackTheBox&labelColor=black&link=https%3A%2F%2Fwww.google.com%2F" />
-
+<img src="https://img.shields.io/badge/CPTS-green?style=for-the-badge&logo=HackTheBox&labelColor=black&link=https%3A%2F%2Fwww.google.com%2F" />
 </div>
 
 ## Projects
 - Detection Lab
 - SOC Automation Project
-
-![CRTO Badge](https://api.eu.badgr.io/public/badges/Od2nC1yPRPaDC9UCJ8W7Lg/image)
