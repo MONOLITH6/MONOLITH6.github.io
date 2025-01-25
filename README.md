@@ -55,7 +55,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 [![BSCP Certification](https://img.shields.io/badge/BSCP-%23ff6633?style=for-the-badge&logo=Burp%20Suite&logoColor=%23ff6633&labelColor=black)](https://portswigger.net/web-security/certification)
 
 <a href="https://your-desired-link.com">
-  <img src="https://media.eu.badgr.com/uploads/badges/810fb737-3709-422a-9544-e8329e6f9eb7.png" alt="Custom Badge" style="width: 30px; height: auto;">
+  <img src="https://media.eu.badgr.com/uploads/badges/810fb737-3709-422a-9544-e8329e6f9eb7.png" alt="Custom Badge" style="width: 50px; height: auto;">
 </a>
 
 
