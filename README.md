@@ -25,7 +25,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 | Case Management with TheHive                  | SOC Automation Lab|
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
-![BLUE](https://img.shields.io/badge/Defensive%20Security-blue?style=for-the-badge)
+![BLUE](https://img.shields.io/badge/Defensive%20Security-blue?style=for-the-badge&logo=awssecretsmanager&logoColor=white&labelColor=black)
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
@@ -36,7 +36,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 | Case Management with TheHive                  | SOC Automation Lab|
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
-![RED](https://img.shields.io/badge/Offensive%20Security-red?style=for-the-badge)
+![RED](https://img.shields.io/badge/Offensive%20Security-red?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=black)
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
