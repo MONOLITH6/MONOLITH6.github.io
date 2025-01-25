@@ -56,7 +56,8 @@ My journey in computer science has led me to develop a passion for cybersecurity
 <img src ="https://img.shields.io/badge/BSCP-%23ff6633?style=for-the-badge&logo=bURP%20Suite&logoColor=%23ff6633&labelColor=black&link=https%3A%2F%2Fportswigger.net%2Fweb-security%2Fcertification" />
 <img src="https://img.shields.io/badge/CRTO-black?style=for-the-badge&logoColor=%23ff6633&labelColor=black&link=https%3A%2F%2Ftraining.zeropointsecurity.co.uk%2Fcourses%2Fred-team-ops" />
 </div>
-[![Security+](https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white)](https://www.comptia.org/faq/security/what-is-comptia-security-certification)
+
+[![SecurityPlus](https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white)](https://www.comptia.org/faq/security/what-is-comptia-security-certification)
 [![BSCP Certification](https://img.shields.io/badge/BSCP-%23ff6633?style=for-the-badge&logo=Burp%20Suite&logoColor=%23ff6633&labelColor=black)](https://portswigger.net/web-security/certification)
 
 
