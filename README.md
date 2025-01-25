@@ -13,7 +13,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 
 ## Projects
-![QA](https://img.shields.io/badge/Quality%20Assurance-green?style=for-the-badge)
+![QA](https://img.shields.io/badge/Quality%20Assurance-green?style=for-the-badge&logo=qase&logoColor=white&labelColor=black)
 
 
 | Skill                                         | Associated Project         |
