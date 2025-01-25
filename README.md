@@ -13,8 +13,6 @@ I am a recent graduate with a profound interest in technology and a dedication t
 My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
-
 [![Custom Badge](https://cdn.prod.website-files.com/617158a4a2f9b7827f1ad102/65a8e4e14be2b6b1e170d354_beetroot.svg)](https://beetrootacademy.com/)
 [![CTRO](https://img.shields.io/badge/CRTO-black?style=for-the-badge&logoColor=%23ff6633&labelColor=black)](https://training.zeropointsecurity.co.uk/courses/red-team-ops)
 [![HTB:CPTS](https://img.shields.io/badge/CPTS-green?style=for-the-badge&logo=HackTheBox&labelColor=black)](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist)
