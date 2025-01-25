@@ -2,6 +2,8 @@
 <a href="https://www.linkedin.com/in/robertvoronko/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 [![HTB:Labs](https://img.shields.io/badge/%20M0n0l1th6-green?style=for-the-badge&logo=hackthebox&logoColor=green&labelColor=black)](https://app.hackthebox.com/users/1744872)
+
+[![HTB:Labs](https://img.shields.io/badge/%20M0n0l1th6-green?style=for-the-badge&logo=hackthebox&logoColor=green&labelColor=black)](https://app.hackthebox.com/users/1744872)
  
 
 QA Engineer | SOC Analyst in Training | Red Team Practitioner
