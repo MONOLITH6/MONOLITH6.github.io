@@ -19,18 +19,18 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 ![QA](https://img.shields.io/badge/Quality%20Assurance-green?style=for-the-badge&logo=qase&logoColor=white&labelColor=black)
 
 
-| Tech                        | Project                                    |
-| --------------------------- | ------------------------------------------ |
-| Selenium + Python           | Web Application Automation Testing         |
-| Postman + Newman            | API Testing and Reporting                  |
-| JMeter                      | Performance Testing for a Web App          |
-| Python + Unittest or pytest | Unit Testing for Python Applications       |
-| Jenkins + Selenium Grid     | Continuous Integration for Test Automation |
-| OWASP ZAP                   | Security Testing for Web Applications      |
-| TestRail + Jira Integration | Test Case Management and Reporting         |
-| Appium                      | Mobile App Automation Testing              |
-| Cypress.io                  | End-to-End Testing for Modern Web Apps     |
-| Docker                      | QA Environment Automation with Containers  |
+| Tech                                 | Project                                         |
+| ------------------------------------ | ----------------------------------------------- |
+| AI-Powered Test Case Generator       | Automate Test Case Generation with GPT APIs     |
+| Chaos Monkey + Kubernetes            | Chaos Testing for Microservices                 |
+| Python + Mutation Testing Tools      | Mutation Testing for Bug Detection              |
+| Selenium + BrowserStack              | Cross-Browser and Device Compatibility Testing  |
+| WebRTC Testing + Puppeteer           | Automated Video Call Testing for Web Apps       |
+| Playwright                           | Automated Testing for Modern Web Applications   |
+| AI/ML Model Testing                  | Validation and Performance Testing of ML Models |
+| GitHub Actions + Cypress.io          | Continuous Testing Pipeline with CI/CD          |
+| IoT QA (Raspberry Pi + MQTT Testing) | Functional Testing for IoT Devices              |
+| Ethical Hacking + Burp Suite         | Security QA for APIs and Web Applications       |
 
 ![BLUE](https://img.shields.io/badge/Defensive%20Security-blue?style=for-the-badge&logo=awssecretsmanager&logoColor=white&labelColor=black)
 
