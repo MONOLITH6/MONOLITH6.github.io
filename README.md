@@ -19,53 +19,52 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 ![QA](https://img.shields.io/badge/Quality%20Assurance-green?style=for-the-badge&logo=qase&logoColor=white&labelColor=black)
 
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Tech                        | Project                                    |
+| --------------------------- | ------------------------------------------ |
+| Selenium + Python           | Web Application Automation Testing         |
+| Postman + Newman            | API Testing and Reporting                  |
+| JMeter                      | Performance Testing for a Web App          |
+| Python + Unittest or pytest | Unit Testing for Python Applications       |
+| Jenkins + Selenium Grid     | Continuous Integration for Test Automation |
+| OWASP ZAP                   | Security Testing for Web Applications      |
+| TestRail + Jira Integration | Test Case Management and Reporting         |
+| Appium                      | Mobile App Automation Testing              |
+| Cypress.io                  | End-to-End Testing for Modern Web Apps     |
+| Docker                      | QA Environment Automation with Containers  |
 
 ![BLUE](https://img.shields.io/badge/Defensive%20Security-blue?style=for-the-badge&logo=awssecretsmanager&logoColor=white&labelColor=black)
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Tech                                | Project                       |
+| ----------------------------------- | ----------------------------- |
+| SIEM, Splunk, ELK                   | Detection Lab                 |
+| Wazuh + SOAR                        | Automated Threat Response Lab |
+| AD                                  | Active Directory w/Honeypots  |
+| Security Onion + PCAP Investigation | Network Traffic Analysis Lab  |
+| Microsoft 365 + MDE Implementation  | Endpoint Protection Lab       |
+| Phishing Simulation + Response      | Anti-phishing Lab             |
 
 ![RED](https://img.shields.io/badge/Offensive%20Security-red?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=black)
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
-
+| **Tech**                           | **Project**                                  |
+| ---------------------------------- | -------------------------------------------- |
+| Malware Development                | Keylogger                                    |
+| Wireless Security                  | WifiForge Lab                                |
+| Active Directory Penetration       | Multi-trust Active Directory Lab             |
+| Social Engineering, Foothold       | Phishing Campaign                            |
+| Red Teaming, Cobalt Strike, Sliver | Custom C2 Server                             |
+| Network Security                   | SMB Share Scanner for Hard-Coded Credentials |
 
 
 
 ![Raspberry](https://img.shields.io/badge/Raspberry%20Pi-%23A22846?style=for-the-badge&logo=raspberrypi&labelColor=black)
 
-| **Skill** | **Project**            |
-| --------- | ---------------------- |
-|           | TOR Router             |
-|           | Pwnagotchi             |
-|           | Rubber Ducky (Hotplug) |
-|           | Password Cracking Rig  |
-|           | NAS                    |
-|           | NIDS                   |
-|           | Password Generator     |
-|           | Encrypted Messenger    |
-|           | Pi-VPN                 |
+| **Tech**                 | **Project**         |
+| ------------------------ | ------------------- |
+| FreeNAS/TrueNAS          | NAS                 |
+| Suricata/Snort           | NIDS                |
+| Python                   | Password Generator  |
+| Python + PyCryptodome    | Encrypted Messenger |
+| Raspberry Pi + WireGuard | Pi-VPN              |
 
 ## Languages and Tools
 
