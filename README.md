@@ -104,37 +104,3 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 <a href="https://www.thotcon.org/">
   <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
-
-`<div>
-    <img src="https://img.shields.io/badge/-Automation-0088CC?&style=for-the-badge&logo=Automattic&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Manual_Testing-4CAF50?&style=for-the-badge&logo=TestCafe&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Performance_Testing-FF9800?&style=for-the-badge&logo=ApacheJMeter&logoColor=white" />
-    <img src="https://img.shields.io/badge/-API_Testing-CC6699?&style=for-the-badge&logo=Postman&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Mobile_Testing-3DDC84?&style=for-the-badge&logo=Android&logoColor=white" />
-    <img src="https://img.shields.io/badge/-CI%2FCD_Pipelines-0078D7?&style=for-the-badge&logo=AzurePipelines&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Security_Testing-E2231A?&style=for-the-badge&logo=OWASP&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Selenium-43B02A?&style=for-the-badge&logo=Selenium&logoColor=white" />
-    <img src="https://img.shields.io/badge/-JMeter-D22128?&style=for-the-badge&logo=ApacheJMeter&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Cypress-17202C?&style=for-the-badge&logo=Cypress&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Postman-FF6C37?&style=for-the-badge&logo=Postman&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Appium-6DB33F?&style=for-the-badge&logo=Appium&logoColor=white" />
-    <img src="https://img.shields.io/badge/-TestRail-0099FF?&style=for-the-badge&logo=TestRail&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?&style=for-the-badge&logo=GitHubActions&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=Docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Burp_Suite-FF6633?&style=for-the-badge&logo=BurpSuite&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Azure_DevOps-0078D7?&style=for-the-badge&logo=AzureDevOps&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Threat_Hunting-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Incident_Response-F24E1E?&style=for-the-badge&logo=Firebase&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Digital_Forensics-005571?&style=for-the-badge&logo=Autodesk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-SOC_Automation-0099CC?&style=for-the-badge&logo=Automattic&logoColor=white" />
-    <img src="https://img.shields.io/badge/-SIEM_Analysis-FF6C37?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Network_Security-4CAF50?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Log_Analysis-E2231A?&style=for-the-badge&logo=ElasticSearch&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Vulnerability_Assessment-FFC107?&style=for-the-badge&logo=Nessus&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Malware_Analysis-8B0000?&style=for-the-badge&logo=VirusTotal&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Phishing_Simulation-FF9800?&style=for-the-badge&logo=Gmail&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Endpoint_Detection_and_Response-0078D4?&style=for-the-badge&logo=Windows&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Penetration_Testing-800080?&style=for-the-badge&logo=Metasploit&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Privilege_Escalation-F44336?&style=for-the-badge&logo=Linux&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Post_Exploitation-000000?&style=for-the-badge&logo=Terminal&logoColor=white" />
-</div>`
