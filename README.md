@@ -105,7 +105,7 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
   <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
-<div>
+`<div>
     <img src="https://img.shields.io/badge/-Automation-0088CC?&style=for-the-badge&logo=Automattic&logoColor=white" />
     <img src="https://img.shields.io/badge/-Manual_Testing-4CAF50?&style=for-the-badge&logo=TestCafe&logoColor=white" />
     <img src="https://img.shields.io/badge/-Performance_Testing-FF9800?&style=for-the-badge&logo=ApacheJMeter&logoColor=white" />
@@ -137,4 +137,4 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
     <img src="https://img.shields.io/badge/-Penetration_Testing-800080?&style=for-the-badge&logo=Metasploit&logoColor=white" />
     <img src="https://img.shields.io/badge/-Privilege_Escalation-F44336?&style=for-the-badge&logo=Linux&logoColor=white" />
     <img src="https://img.shields.io/badge/-Post_Exploitation-000000?&style=for-the-badge&logo=Terminal&logoColor=white" />
-</div>
+</div>`
