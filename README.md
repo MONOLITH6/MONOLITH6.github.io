@@ -104,3 +104,23 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 <a href="https://www.thotcon.org/">
   <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
+
+<div>
+    <img src="https://img.shields.io/badge/-Automation-0088CC?&style=for-the-badge&logo=Automattic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Manual_Testing-4CAF50?&style=for-the-badge&logo=TestCafe&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Performance_Testing-FF9800?&style=for-the-badge&logo=ApacheJMeter&logoColor=white" />
+    <img src="https://img.shields.io/badge/-API_Testing-CC6699?&style=for-the-badge&logo=Postman&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Mobile_Testing-3DDC84?&style=for-the-badge&logo=Android&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CI%2FCD_Pipelines-0078D7?&style=for-the-badge&logo=AzurePipelines&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Security_Testing-E2231A?&style=for-the-badge&logo=OWASP&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Selenium-43B02A?&style=for-the-badge&logo=Selenium&logoColor=white" />
+    <img src="https://img.shields.io/badge/-JMeter-D22128?&style=for-the-badge&logo=ApacheJMeter&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Cypress-17202C?&style=for-the-badge&logo=Cypress&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Postman-FF6C37?&style=for-the-badge&logo=Postman&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Appium-6DB33F?&style=for-the-badge&logo=Appium&logoColor=white" />
+    <img src="https://img.shields.io/badge/-TestRail-0099FF?&style=for-the-badge&logo=TestRail&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?&style=for-the-badge&logo=GitHubActions&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=Docker&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Burp_Suite-FF6633?&style=for-the-badge&logo=BurpSuite&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Azure_DevOps-0078D7?&style=for-the-badge&logo=AzureDevOps&logoColor=white" />
+</div>
