@@ -1,10 +1,10 @@
 # OCG vs Jeremy's IT Lab vs Keith Barker
 Resources:
-[OCG](https://learningnetwork.cisco.com/s/ccna-exam-topics)
+[200-301 CCNA v1.1 Exam Topics](https://learningnetwork.cisco.com/s/ccna-exam-topics)
 [Jeremy's IT Lab](https://youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&si=C1eUIrNEjSl0fErr)
 [Keith Barker](https://youtube.com/playlist?list=PLQQoSBmrXmrysEaVNia7KVwf85qATIi1V&si=pu0CIXoLpVQc1RHX)
 
-| **OCG Topic**                                                  | **Keith Barker Topic**                                                       | **Jeremy's IT Lab Topic**                                                       |
+| **200-301 CCNA v1.1 Exam Topics**                                                  | **Keith Barker Topic**                                                       | **Jeremy's IT Lab Topic**                                                       |
 | -------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | **1.0 Network Fundamentals (20%)**                             |                                                                              |                                                                                 |
 | 1.1 Explain the role and function of network components        | Cisco CCNA Playlists: Get the most from your time                            | Network Devices (Day 1)                                                         |
