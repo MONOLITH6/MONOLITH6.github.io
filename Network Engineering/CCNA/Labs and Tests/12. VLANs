@@ -1,0 +1,487 @@
+# Cheat Sheet
+
+| **Command**                                        | **Description**                                                   |
+| -------------------------------------------------- | ----------------------------------------------------------------- |
+| `show vlan brief`                                  | Displays the VLAN database and the ports assigned to each VLAN.   |
+| `show mac address-table`                           | Displays the MAC address table and the VLANs they are learned on. |
+| `vlan [vlan-id]`                                   | Creates a VLAN with the specified ID.                             |
+| `name [vlan-name]`                                 | Assigns a name to a VLAN.                                         |
+| `shutdown`                                         | Disables the VLAN.                                                |
+| `no vlan [vlan-id]`                                | Deletes the specified VLAN.                                       |
+| `interface range [ports]`                          | Enters interface configuration mode for a range of ports.         |
+| `switchport mode access`                           | Configures the port to operate in access mode.                    |
+| `switchport access vlan [vlan-id]`                 | Assigns the port to a specific VLAN.                              |
+| `switchport trunk encapsulation dot1q`             | Sets 802.1Q as the trunking encapsulation method.                 |
+| `switchport mode trunk`                            | Configures the port to operate in trunk mode.                     |
+| `show interfaces trunk`                            | Displays trunk interfaces and their allowed VLANs.                |
+| `switchport trunk allowed vlan [vlan-list]`        | Specifies which VLANs are allowed on a trunk port.                |
+| `switchport trunk allowed vlan add [vlan-id]`      | Adds VLANs to the allowed list.                                   |
+| `switchport trunk allowed vlan remove [vlan-id]`   | Removes VLANs from the allowed list.                              |
+| `switchport trunk allowed vlan all`                | Allows all VLANs on the trunk.                                    |
+| `switchport trunk allowed vlan none`               | Blocks all VLANs on the trunk.                                    |
+| `switchport trunk allowed vlan except [vlan-list]` | Allows all VLANs except the specified ones.                       |
+| `switchport trunk native vlan [vlan-id]`           | Configures the native VLAN on a trunk port.                       |
+| `interface [interface-id]`                         | Enters interface configuration mode.                              |
+| `ip address [ip] [subnet-mask]`                    | Assigns an IP address to a router interface.                      |
+| `no shutdown`                                      | Enables an interface.                                             |
+| `interface [interface-id].[subinterface-id]`       | Creates a subinterface (used in Router-on-a-Stick).               |
+| `encapsulation dot1q [vlan-id]`                    | Specifies the VLAN for a router subinterface.                     |
+| `ip routing`                                       | Enables IP routing on a multilayer switch.                        |
+| `interface vlan [vlan-id]`                         | Configures a Switch Virtual Interface (SVI).                      |
+| `no switchport`                                    | Converts a switch port to a routed port.                          |
+| `ip route 0.0.0.0 0.0.0.0 [next-hop-ip]`           | Configures a static default route.                                |
+| `show ip interface brief`                          | Displays summary information about all interfaces.                |
+| `show ip route`                                    | Displays the routing table.                                       |
+
+
+# Test
+VLANs (Virtual Local Area Networks) help organize and secure networks by dividing a single physical network into multiple logical networks. Think of VLANs like different departments in a company—each one has its own space, but they can still communicate through specific pathways when needed.
+
+---
+
+## 📌 Questions
+
+### 📝 Multiple-Choice Questions
+
+1. **What is the main purpose of a VLAN?**
+
+   - A) To replace all physical switches in a network
+   - B) To logically segment a network into smaller parts
+   - C) To allow only wireless devices to communicate
+   - D) To eliminate the need for routers
+
+2. **Which layer of the OSI model do VLANs operate on?**
+
+   - A) Layer 1 (Physical)
+   - B) Layer 2 (Data Link)
+   - C) Layer 3 (Network)
+   - D) Layer 4 (Transport)
+
+3. **What is the default VLAN on most switches?**
+
+   - A) VLAN 1
+   - B) VLAN 10
+   - C) VLAN 100
+   - D) VLAN 255
+
+4. **Which VLAN is commonly used for voice traffic?**
+
+   - A) VLAN 99
+   - B) VLAN 200
+   - C) VLAN 1000
+   - D) VLAN 20
+
+5. **How do trunk ports differ from access ports?**
+
+   - A) Trunk ports carry traffic from multiple VLANs, while access ports carry traffic from one VLAN
+   - B) Trunk ports are used for end-user devices, while access ports are used for inter-switch connections
+   - C) Trunk ports block VLAN traffic, while access ports allow VLAN traffic
+   - D) There is no difference between trunk and access ports
+
+6. **What protocol is used to tag VLAN traffic?**
+
+   - A) HTTP
+   - B) FTP
+   - C) 802.1Q
+   - D) SMTP
+
+7. **What happens if a switch receives an untagged frame on a trunk port?**
+
+   - A) The frame is discarded
+   - B) The frame is assigned to the native VLAN
+   - C) The frame is assigned to VLAN 0
+   - D) The switch crashes
+
+8. **What is the main security risk of using VLAN 1 as the native VLAN?**
+
+   - A) It causes increased network congestion
+   - B) It allows VLAN hopping attacks
+   - C) It prevents VLAN traffic from passing through
+   - D) It limits the number of VLANs that can be configured
+
+9. **How many VLANs can be configured on a switch?**
+
+   - A) 16
+   - B) 256
+   - C) 4094
+   - D) 65536
+
+10. **What is the purpose of Inter-VLAN Routing?**
+
+    - A) It allows VLANs to communicate with each other
+    - B) It prevents communication between VLANs
+    - C) It replaces the need for subnetting
+    - D) It enables wireless networks only
+
+---
+
+### ✍️ Short Answer Questions
+
+1. Explain why VLANs are important for network security.
+2. How does a switch know which VLAN a frame belongs to?
+3. What is VLAN Trunking Protocol (VTP), and how does it help manage VLANs?
+4. Why should an unused VLAN be configured as the native VLAN?
+5. What is the difference between a Layer 2 switch and a Layer 3 switch?
+
+---
+
+### 🔄 Match Terms
+
+#### **Set 1**
+
+- **A** VLAN Trunking
+- **B** Native VLAN
+- **C** VLAN ID
+
+1. VLAN assigned to untagged traffic
+2. Unique identifier for a VLAN
+3. Allows multiple VLANs on one port
+
+#### **Set 2**
+
+- **A** Inter-VLAN Routing
+- **B** VLAN Hopping
+- **C** Broadcast Domain
+
+1. A security risk allowing unauthorized VLAN access
+2. A logical network segment where broadcasts are contained
+3. A method for VLANs to communicate
+
+#### **Set 3**
+
+- **A** Access Port
+- **B** Trunk Port
+- **C** IEEE 802.1Q
+- **D** Subnetting
+- **E** Layer 2 Switching
+
+1. Assigns a single VLAN to a port
+2. Supports multiple VLANs over a link
+3. VLAN tagging protocol
+4. Divides networks at Layer 3
+5. Forwards frames based on MAC addresses
+
+---
+
+### ✅ Select All That Apply
+
+1. **Which of the following are benefits of VLANs?**
+
+   - A) Improved security
+   - B) Reduced network congestion
+   - C) Allows more than 4096 VLANs per switch
+   - D) Easier network management
+
+2. **Which of the following statements about trunking are true?**
+
+   - A) Trunk ports allow multiple VLANs
+   - B) Trunk ports use VLAN IDs to tag frames
+   - C) Trunk ports are only used for voice VLANs
+   - D) Trunking helps inter-switch communication
+
+---
+
+### 🎤 Oral Question
+
+**Explain VLANs in simple terms.**
+
+---
+
+## ✅ Answer Key
+
+### Multiple-Choice Answers
+
+1. **B**
+2. **B**
+3. **A**
+4. **D**
+5. **A**
+6. **C**
+7. **B**
+8. **B**
+9. **C**
+10. **A**
+
+### Short Answers
+
+1. VLANs enhance security by isolating different groups of devices, preventing unauthorized communication between them.
+2. A switch uses VLAN tagging (802.1Q) or access port configuration to determine VLAN membership.
+3. VLAN Trunking Protocol (VTP) automates VLAN configuration across multiple switches, reducing administrative overhead.
+4. Using an unused VLAN as the native VLAN prevents VLAN hopping attacks, improving security.
+5. A Layer 2 switch operates at the Data Link Layer and forwards frames based on MAC addresses, while a Layer 3 switch can route packets based on IP addresses.
+
+### Match Terms
+
+**Set 1**\
+A → 3\
+B → 1\
+C → 2
+
+**Set 2**\
+A → 3\
+B → 1\
+C → 2
+
+**Set 3**\
+A → 1\
+B → 2\
+C → 3\
+D → 4\
+E → 5
+
+### Select All That Apply
+
+1. **ABD**
+2. **ABD**
+
+### Oral Question Answer
+
+**VLANs are like different departments in an office. Even though everyone is in the same building, each department has its own section to keep things organized. If they need to communicate, they use special paths (routers or Layer 3 switches) to do so safely. This helps keep things secure and prevents unnecessary traffic from slowing down the network.**
+
+---
+
+## 📝 Empty Answer Sheet
+
+(For practice responses)
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+2.1\
+2.2\
+2.3\
+2.4\
+2.5
+
+3.1\
+A\
+B\
+C
+
+3.2\
+A\
+B\
+C
+
+3.3\
+A\
+B\
+C
+
+4.1\
+4.2
+
+5.
+
+# Labs
+
+
+## **Lab Simulation Homework: VLANs, Trunking, and Inter-VLAN Routing**  
+
+## **Lab Setup**
+### **Required Devices**
+- **2 Cisco Switches** (SW1, SW2)
+- **1 Cisco Router** (R1) *or* a **Layer 3 Switch** (SW3)
+- **3 PCs** (PC1, PC2, PC3)
+
+### **Network Topology**
+- SW1 and SW2 are connected via **trunk link**.
+- VLANs **10, 20, 30** are configured across both switches.
+- PCs are assigned **different VLANs**.
+- R1 (Router-on-a-Stick) or SW3 (Inter-VLAN routing) enables VLAN communication.
+
+---
+
+## **Lab Tasks**
+
+### **Task 1: VLAN Configuration on SW1 & SW2**
+1. **Verify existing VLANs on both switches**
+   ```bash
+   SW1# show vlan brief
+   SW2# show vlan brief
+   ```
+2. **Create VLANs on both switches**
+   ```bash
+   SW1(config)# vlan 10
+   SW1(config-vlan)# name Engineering
+   SW1(config)# vlan 20
+   SW1(config-vlan)# name HR
+   SW1(config)# vlan 30
+   SW1(config-vlan)# name Sales
+
+   SW2(config)# vlan 10
+   SW2(config-vlan)# name Engineering
+   SW2(config)# vlan 20
+   SW2(config-vlan)# name HR
+   SW2(config)# vlan 30
+   SW2(config-vlan)# name Sales
+   ```
+3. **Verify VLANs are created on both switches**
+   ```bash
+   SW1# show vlan brief
+   SW2# show vlan brief
+   ```
+
+---
+
+### **Task 2: Assign Ports to VLANs**
+#### **SW1 Configuration**
+```bash
+SW1(config)# interface g0/1
+SW1(config-if)# switchport mode access
+SW1(config-if)# switchport access vlan 10
+
+SW1(config)# interface g0/2
+SW1(config-if)# switchport mode access
+SW1(config-if)# switchport access vlan 20
+
+SW1(config)# interface g0/3
+SW1(config-if)# switchport mode access
+SW1(config-if)# switchport access vlan 30
+```
+#### **SW2 Configuration**
+```bash
+SW2(config)# interface g0/1
+SW2(config-if)# switchport mode access
+SW2(config-if)# switchport access vlan 10
+
+SW2(config)# interface g0/2
+SW2(config-if)# switchport mode access
+SW2(config-if)# switchport access vlan 20
+
+SW2(config)# interface g0/3
+SW2(config-if)# switchport mode access
+SW2(config-if)# switchport access vlan 30
+```
+#### **Verify VLAN Assignment**
+```bash
+SW1# show vlan brief
+SW2# show vlan brief
+```
+
+---
+
+### **Task 3: Configure Trunk Ports on SW1 & SW2**
+1. **Configure trunking between SW1 & SW2**
+   ```bash
+   SW1(config)# interface g1/0
+   SW1(config-if)# switchport mode trunk
+   SW1(config-if)# switchport trunk allowed vlan 10,20,30
+   SW1(config-if)# switchport trunk encapsulation dot1q
+
+   SW2(config)# interface g1/0
+   SW2(config-if)# switchport mode trunk
+   SW2(config-if)# switchport trunk allowed vlan 10,20,30
+   SW2(config-if)# switchport trunk encapsulation dot1q
+   ```
+2. **Verify trunking is active**
+   ```bash
+   SW1# show interfaces trunk
+   SW2# show interfaces trunk
+   ```
+
+`Command rejected: An interface whose trunk encapsulation is "Auto" can not be configured to "trunk" mode.`
+The error occurs on older Cisco switches (e.g., Catalyst 2950, 3550, or 3750), which support both ISL and 802.1Q trunking.
+
+---
+
+### **Task 4: Configure Inter-VLAN Routing**
+#### **Option 1: Router-on-a-Stick (Using R1)**
+1. **Create subinterfaces on R1**
+   ```bash
+   R1(config)# interface g0/0
+   R1(config-if)# no shutdown
+   R1(config-if)# interface g0/0.10
+   R1(config-subif)# encapsulation dot1q 10
+   R1(config-subif)# ip address 172.16.1.1 255.255.255.192
+
+   R1(config)# interface g0/0.20
+   R1(config-subif)# encapsulation dot1q 20
+   R1(config-subif)# ip address 172.16.1.65 255.255.255.192
+
+   R1(config)# interface g0/0.30
+   R1(config-subif)# encapsulation dot1q 30
+   R1(config-subif)# ip address 172.16.1.129 255.255.255.192
+   ```
+2. **Verify inter-VLAN routing**
+   ```bash
+   R1# show ip route
+   ```
+
+#### **Option 2: Inter-VLAN Routing on Layer 3 Switch (SW3)**
+1. **Enable IP routing**
+   ```bash
+   SW3(config)# ip routing
+   ```
+2. **Configure SVIs (Switch Virtual Interfaces)**
+   ```bash
+   SW3(config)# interface vlan 10
+   SW3(config-if)# ip address 172.16.1.1 255.255.255.192
+   SW3(config-if)# no shutdown
+
+   SW3(config)# interface vlan 20
+   SW3(config-if)# ip address 172.16.1.65 255.255.255.192
+   SW3(config-if)# no shutdown
+
+   SW3(config)# interface vlan 30
+   SW3(config-if)# ip address 172.16.1.129 255.255.255.192
+   SW3(config-if)# no shutdown
+   ```
+3. **Verify routing**
+   ```bash
+   SW3# show ip route
+   ```
+
+---
+
+### **Task 5: Test Connectivity**
+1. **Ping between VLANs using router**
+   ```bash
+   PC1> ping 172.16.1.129
+   ```
+2. **Ping between VLANs using Layer 3 switch**
+   ```bash
+   PC2> ping 172.16.1.1
+   ```
+3. **Troubleshoot VLANs**
+   ```bash
+   SW1# show vlan brief
+   SW2# show vlan brief
+   ```
+
+---
+
+### **Bonus: Security Configuration**
+1. **Enable Port Security**
+   ```bash
+   SW1(config)# interface g0/1
+   SW1(config-if)# switchport port-security
+   SW1(config-if)# switchport port-security maximum 1
+   SW1(config-if)# switchport port-security violation restrict
+   SW1(config-if)# switchport port-security mac-address sticky
+   ```
+2. **Verify Port Security**
+   ```bash
+   SW1# show port-security
+   ```
+
+---
+
+## **Lab Deliverables**
+1. **Screenshots or CLI outputs** showing:
+   - VLAN creation (`show vlan brief`)
+   - Trunking (`show interfaces trunk`)
+   - Router-on-a-stick (`show ip route`)
+   - Inter-VLAN routing (`show ip interface brief`)
+   - Successful **ping tests** between VLANs
+2. **Answers to troubleshooting steps** for VLAN issues.
+
+
