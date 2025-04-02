@@ -1,0 +1,363 @@
+# Cheat Sheet
+Here's a table summarizing the **commands and important concepts** used in Chapter 11 of *Acing the CCNA Exam: Volume 1 – Fundamentals and Protocols*, which covers **Subnetting IPv4 Networks**:
+
+| **Command/Term**           | **Description**                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------------- |
+| `ip address [IP] [Subnet]` | Cisco IOS command to assign an IP address and subnet mask to an interface.            |
+| `/x` CIDR Notation         | Shorthand for subnet mask length (e.g., `/24` = 255.255.255.0).                       |
+| `2^x`                      | Formula to calculate the number of subnets, where `x` is the number of borrowed bits. |
+| `2^y - 2`                  | Formula to calculate the number of usable host addresses, where `y` is host bits.     |
+| **FLSM**                   | Fixed-Length Subnet Masking: all subnets have equal size.                             |
+| **VLSM**                   | Variable-Length Subnet Masking: subnets have varying sizes depending on need.         |
+| **Network Address**        | First IP in a subnet; host bits are all 0.                                            |
+| **Broadcast Address**      | Last IP in a subnet; host bits are all 1.                                             |
+| **First Usable Address**   | Network address + 1.                                                                  |
+| **Last Usable Address**    | Broadcast address - 1.                                                                |
+| `R1(config-if)#`           | Prompt for configuring an interface on a Cisco router.                                |
+| `255.255.255.128`, etc.    | Subnet masks in dotted decimal form, often used in configuration.                     |
+| `/31` and `/30`            | Prefix lengths commonly used for point-to-point links.                                |
+
+Let me know if you'd also like a **printable version**, **CSV format**, or a **mindmap-style overview** of subnetting concepts.
+
+# Theory in short
+
+### What is Subnetting?
+Subnetting is a way to split a large IP network into smaller, more manageable pieces called **subnets**. This helps conserve IP addresses and improves network organization.
+
+### Why do we need it?
+In the old days, networks came in just 3 sizes (Classes A, B, C), and most were either too big or too small. Subnetting gives flexibility by letting you create **networks that are just the right size**.
+
+### Classless Inter-Domain Routing (CIDR)
+CIDR (pronounced "cider") lets you cut networks into any size by using **prefix lengths**, like `/26` or `/30`, instead of only `/8`, `/16`, or `/24`.
+
+### How does subnetting work?
+You "borrow" bits from the **host part** of the address to create smaller subnets. Each subnet has its own:
+
+- **Network address** (first IP in the subnet)
+- **Broadcast address** (last IP in the subnet)
+- **Usable addresses** (everything in between)
+
+### Fixed vs. Variable Subnetting
+- **Fixed-Length Subnet Masking (FLSM)** creates all subnets the same size.
+- **Variable-Length Subnet Masking (VLSM)** creates subnets in different sizes to fit your needs.
+
+### Example
+If you split a **/24 network (256 IPs)** into **/26 subnets (64 IPs each)**, you get **4 smaller networks**.
+
+---
+
+## Basic TXT Flowchart
+
+```
+Start: Assign IP Block
+|
++---> Borrow Bits (Decide Subnet Size)
+|      |
+|      +---> Fixed or Variable Length?
+|                |
+|                +--> (FLSM) All Subnets Same Size
+|                |
+|                +--> (VLSM) Different Subnet Sizes
+|
++---> Assign Subnet Ranges
+|
++---> Identify Key Attributes (Network Addr, Broadcast Addr, Usable Range, etc.)
+|
++---> Configure Devices with Assigned IPs
+|
+End
+```
+
+---
+
+## Questions
+
+### Multiple-choice questions
+
+#### 1.1 What is the main purpose of subnetting?
+A) To speed up data transfer rates  
+B) To create smaller, more manageable networks  
+C) To increase the number of IP addresses in IPv4  
+D) To secure the network  
+
+#### 1.2 What does CIDR stand for?
+A) Classless Inter-Domain Routing  
+B) Computer Internal Data Routing  
+C) Critical IP Distribution Range  
+D) Central Internet Domain Registry  
+
+#### 1.3 In subnetting, what do you borrow to create subnets?
+A) Octets  
+B) Hosts  
+C) Bits  
+D) IP addresses  
+
+#### 1.4 What is the correct subnet mask for a /26 network?
+A) 255.255.255.0  
+B) 255.255.255.192  
+C) 255.255.255.224  
+D) 255.255.255.248  
+
+#### 1.5 How many usable hosts are in a /30 subnet?
+A) 1  
+B) 2  
+C) 3  
+D) 4  
+
+#### 1.6 Which of these is **best suited for point-to-point links**?
+A) /24  
+B) /28  
+C) /30  
+D) /31  
+
+#### 1.7 What does the network address represent in a subnet?
+A) First usable IP  
+B) Last usable IP  
+C) Identifier for the subnet  
+D) Gateway address  
+
+#### 1.8 How many subnets can you create by borrowing 3 bits?
+A) 4  
+B) 6  
+C) 8  
+D) 16  
+
+#### 1.9 Which method creates subnets of different sizes?
+A) FLSM  
+B) VLSM  
+C) CIDR  
+D) ARP  
+
+#### 1.10 What happens if you borrow too many bits?
+A) Too many IP addresses are wasted  
+B) Not enough IP addresses are left for hosts  
+C) Network devices will fail  
+D) Nothing happens  
+
+---
+
+### Short Answer Questions
+
+#### 2.1 What does a subnet mask do?
+#### 2.2 Why is CIDR better than classful addressing?
+#### 2.3 What is the formula to calculate the number of usable hosts?
+#### 2.4 What is the broadcast address used for?
+#### 2.5 What’s the difference between /30 and /31 subnets?
+
+---
+
+### Match Terms
+
+#### 3.1 Set 1
+A. Network Address  
+B. Broadcast Address  
+C. Usable Addresses  
+
+1. First IP in a subnet, identifies the subnet itself  
+2. Last IP in a subnet, used to send to all devices  
+3. IPs between the first and last, used by devices  
+
+#### 3.2 Set 2
+A. FLSM  
+B. VLSM  
+C. CIDR  
+D. Host Bits  
+
+1. All subnets are the same size  
+2. Subnets can be different sizes  
+3. Allows any size subnet, flexible addressing  
+4. Portion of IP used to assign devices  
+
+#### 3.3 Set 3
+A. /24  
+B. /28  
+C. /30  
+D. /32  
+E. /26  
+
+1. 254 usable addresses  
+2. 14 usable addresses  
+3. 2 usable addresses  
+4. 1 usable address  
+5. 62 usable addresses  
+
+---
+
+### Select All That Apply
+
+#### 4.1 Which of the following are benefits of subnetting?
+A) Better IP address management  
+B) Faster data transfer  
+C) Improved network segmentation  
+D) Increased total number of IP addresses  
+
+#### 4.2 What tools are useful when subnetting manually?
+A) Binary conversion skills  
+B) IP calculators  
+C) CIDR charts  
+D) DNS servers  
+
+---
+
+### Oral Question
+
+#### 5.1 Explain subnetting in simple terms.
+
+---
+
+## Answer Key
+
+### Multiple-choice Answers
+1.1 B  
+1.2 A  
+1.3 C  
+1.4 B  
+1.5 B  
+1.6 D  
+1.7 C  
+1.8 C  
+1.9 B  
+1.10 B  
+
+### Short Answer Answers
+2.1 Separates the network and host parts of an IP address.  
+2.2 It allows flexible network sizes, saving IP addresses.  
+2.3 \(2^y - 2\), where \(y\) = number of host bits.  
+2.4 Used to send messages to all devices in the subnet.  
+2.5 /30 has 2 usable IPs, /31 also has 2, but with no broadcast.
+
+### Match Terms Answers
+
+#### 3.1
+A1  
+B2  
+C3  
+
+#### 3.2
+A1  
+B2  
+C3  
+D4  
+
+#### 3.3
+A1  
+B2  
+C3  
+D4  
+E5  
+
+### Select All That Apply
+
+4.1 A, C  
+4.2 A, B, C  
+
+### Oral Question Answer
+
+#### 5.1
+**Subnetting Simplified (Analogy)**  
+Imagine a big apartment building with 256 rooms (IP addresses). If you only need 50 rooms for one business and 20 for another, it’s wasteful to reserve a whole floor (classful addressing). Subnetting lets you break the building into **just-right sections** so each group gets only what they need. You divide up the space efficiently, and each group has their own hallway (subnet) where they can talk to each other without bothering other groups.
+
+---
+
+## Empty Sheet (for user practice)
+
+### Multiple-choice
+1.  
+2.  
+3.  
+4.  
+5.  
+6.  
+7.  
+8.  
+9.  
+10.  
+
+### Short Answer
+2.1  
+2.2  
+2.3  
+2.4  
+2.5  
+
+### Match Terms
+3.1  
+A  
+B  
+C  
+
+3.2  
+A  
+B  
+C  
+D  
+
+3.3  
+A  
+B  
+C  
+D  
+E  
+
+### Select All That Apply
+4.1  
+4.2  
+
+### Oral
+5.  
+
+# Lab
+
+| **Step** | **Action** | **Details** |
+|----------|------------|-------------|
+| 1 | Create Topology | Use 1 router (R1), 4 PCs (PC1–PC4) for FLSM lab; 2 routers (R1, R2), 4 PCs (LANs), and 1 point-to-point link for VLSM lab |
+| 2 | Assign Base Network | Use `172.25.190.0/23` for FLSM (4 equal subnets); Use `10.89.100.0/24` for VLSM |
+| 3 | Subnet Calculation (FLSM) | Borrow 2 bits → 4 subnets → /25 → 126 usable IPs each |
+| 4 | Subnet Calculation (VLSM) | Assign subnets based on host needs:<br>• Toronto A → /25<br>• Tokyo A → /26<br>• Toronto B → /27<br>• Tokyo B → /28<br>• WAN → /30 |
+| 5 | Interface IP Config (FLSM) | Assign first usable IP of each subnet to router interfaces:<br>• G0/0: `172.25.190.1/25`<br>• G0/1: `172.25.190.129/25`<br>• G0/2: `172.25.191.1/25`<br>• G0/3: `172.25.191.129/25` |
+| 6 | Interface IP Config (VLSM) | Assign:<br>• Toronto A: `10.89.100.1/25`<br>• Tokyo A: `10.89.100.129/26`<br>• Toronto B: `10.89.100.193/27`<br>• Tokyo B: `10.89.100.225/28`<br>• R1-R2 link: `10.89.100.241/30` (R1), `10.89.100.242/30` (R2) |
+| 7 | PC IP Assignment | Assign each PC an IP from the subnet and default gateway as router IP |
+| 8 | Ping Tests | Ping router interfaces and between PCs to verify connectivity |
+| 9 | Optional Routing | Configure static routes or use a routing protocol like OSPF if needed |
+
+### **GNS3 Lab Walkthrough Table: IPv4 Subnetting (FLSM & VLSM)**
+`FLSM` 172.25.190.0/23
+
+| **Command/Term**           | **Description**                                                                       |                                                                           |
+| -------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `ip address [IP] [Subnet]` | Cisco IOS command to assign an IP address and subnet mask to an interface.            | 172.25.190.0/23                                                           |
+| `/x` CIDR Notation         | Shorthand for subnet mask length (e.g., `/24` = 255.255.255.0).                       | /23 or 255.255.254.0                                                      |
+| `2^x`                      | Formula to calculate the number of subnets, where `x` is the number of borrowed bits. | 4 (2 borrowed bits)                                                       |
+| `2^y - 2`                  | Formula to calculate the number of usable host addresses, where `y` is host bits.     | 2^7 -2 = 126                                                              |
+| **FLSM**                   | Fixed-Length Subnet Masking: all subnets have equal size.                             |                                                                           |
+| **VLSM**                   | Variable-Length Subnet Masking: subnets have varying sizes depending on need.         |                                                                           |
+| **Network Address**        | First IP in a subnet; host bits are all 0.                                            | 172.25.190.0/25; 172.25.190.129/25<br>172.25.191.0/25; 172.25.191.129/25; |
+| **Broadcast Address**      | Last IP in a subnet; host bits are all 1.                                             |                                                                           |
+| **First Usable Address**   | Network address + 1.                                                                  |                                                                           |
+| **Last Usable Address**    | Broadcast address - 1.                                                                |                                                                           |
+| `R1(config-if)#`           | Prompt for configuring an interface on a Cisco router.                                |                                                                           |
+| `255.255.255.128`, etc.    | Subnet masks in dotted decimal form, often used in configuration.                     |                                                                           |
+| `/31` and `/30`            | Prefix lengths commonly used for point-to-point links.                                |                                                                           |
+
+`VLSM` 10.89.100.0/24
+Tok A 59
+Tok B 11
+Tor A 122
+Tor B 30
+WAN 2
+sum = 226
+
+
+`/24` has 254 host, so it's sufficient, we cannot use FLSM, since some will endup being too small
+- assign the largest block first
+- assign the second largest
+- repeat until all subnets are assigned
+
+| Subnet    | CIDR              | Subnet Size (Number of Addresses) | CIDR             |
+| --------- | ----------------- | --------------------------------- | ---------------- |
+| Tor A     | 10.89.100.0-127   | 122 addresses                     | /25 = 2^7  = 128 |
+| Tok A     | 10.89.100.128-191 | 59 addresses                      | /26 = 2^6 = 64   |
+| Tor B     | 10.89.100.192-223 | 30 addresses                      | /27 = 2^5 = 32   |
+| Tok B     | 10.89.100.224-239 | 11 addresses                      | /28 = 2^4 = 16   |
+| WAN       | 10.89.100.240-243 | 2 addresses                       | /30 = 2^2 = 4    |
+| Remaining | 10.89.100.244-255 |                                   |                  |
