@@ -70,11 +70,11 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 
 ## CTF's and Upcoming Events
-⏳ May 30-31st THOTCON 0xD
-[![](https://www.thotcon.org/)](https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png)
+🥷🏼 April 3-4th CypherCon 8.0
+[![](https://www.thotcon.org/)](https://cyphercon.com/wp-content/uploads/2021/02/cyphercon-logo.png)
 
 <a href="https://www.thotcon.org/">
-  <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
+  <img src="https://cyphercon.com/wp-content/uploads/2021/02/cyphercon-logo.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
 ⏳ May 30-31st THOTCON 0xD
