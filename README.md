@@ -71,9 +71,9 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 ## CTF's and Upcoming Events
 🥷🏼 April 3-4th CypherCon 8.0
-[![](https://www.thotcon.org/)](https://cyphercon.com/wp-content/uploads/2021/02/cyphercon-logo.png)
+[![](https://cyphercon.com/)](https://cyphercon.com/wp-content/uploads/2021/02/cyphercon-logo.png)
 
-<a href="https://www.thotcon.org/">
+<a href="https://cyphercon.com/">
   <img src="https://cyphercon.com/wp-content/uploads/2021/02/cyphercon-logo.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
