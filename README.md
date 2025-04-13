@@ -4,7 +4,7 @@
 [![Twitter](https://img.shields.io/badge/Twitter-M0n0l1th6-black?style=for-the-badge&labelColor=blue)](https://x.com/M0n0l1th6)
  
 
-QA Engineer | SOC Analyst in Training | Red Team Practitioner
+Penetration Tester | Red Team Practitioner
 
 
 ## Certifications
