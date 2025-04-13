@@ -70,32 +70,25 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 
 ## CTF's and Upcoming Events
-🥷🏼 April 3-4th CypherCon 8.0
+🥷🏼 April 3-4th, 2025 CypherCon 8.0
 [![](https://cyphercon.com/)](https://cyphercon.com/wp-content/uploads/2021/02/cyphercon-logo.png)
 
 <a href="https://cyphercon.com/">
   <img src="https://cyphercon.com/wp-content/uploads/2021/02/cyphercon-logo.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
-⏳ May 30-31st THOTCON 0xD
+⏳ May 30-31st, 2025 THOTCON 0xD
 [![](https://www.thotcon.org/)](https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png)
 
 <a href="https://www.thotcon.org/">
   <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
-⏳ May 30-31st THOTCON 0xD
-[![](https://www.thotcon.org/)](https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png)
+⏳ June 1st, 2025 Bsides 312
+[![](https://https://bsides312.org/)](https://bsides312.org/assets/img/logo.png)
 
-<a href="https://www.thotcon.org/">
-  <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
-</a>
-
-⏳ May 30-31st THOTCON 0xD
-[![](https://www.thotcon.org/)](https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png)
-
-<a href="https://www.thotcon.org/">
-  <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
+<a href="hhttps://bsides312.org/">
+  <img src="https://bsides312.org/assets/img/logo.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
 ⏳ October 2-3rd, 2025 GrrCON
@@ -103,4 +96,11 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
 
 <a href="https://grrcon.com/">
   <img src="https://grrcon.com/wp-content/uploads/2020/07/grrcon.png" alt="Custom Badge" style="width: 150px; height: auto;">
+</a>
+
+⏳ October 10-11th, 2025 CORNCON 11
+[![](https://corncon.net/)](https://mlrjwijpapfi.i.optimole.com/w:662/h:478/q:mauto/ig:avif/https://corncon.net/wp-content/uploads/2025/03/corncon.11.logo_.png)
+
+<a href="https://corncon.net/">
+  <img src="https://mlrjwijpapfi.i.optimole.com/w:662/h:478/q:mauto/ig:avif/https://corncon.net/wp-content/uploads/2025/03/corncon.11.logo_.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
