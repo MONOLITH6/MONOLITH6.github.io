@@ -98,9 +98,9 @@ QA Engineer | SOC Analyst in Training | Red Team Practitioner
   <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
-⏳ May 30-31st THOTCON 0xD
-[![](https://www.thotcon.org/)](https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png)
+⏳ October 2-3rd, 2025 GrrCON
+[![](https://www.thotcon.org/)](https://grrcon.com/wp-content/uploads/2020/07/grrcon.png)
 
-<a href="https://www.thotcon.org/">
-  <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
+<a href="https://grrcon.com/">
+  <img src="https://grrcon.com/wp-content/uploads/2020/07/grrcon.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
