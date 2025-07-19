@@ -56,7 +56,7 @@ Penetration Tester | Red Team Practitioner
 
 
 
-![Raspberry](https://img.shields.io/badge/Raspberry%20Pi-%23A22846?style=for-the-badge&logo=raspberrypi&labelColor=black)
+![Hardware](https://img.shields.io/badge/Raspberry%20Pi-%23A22846?style=for-the-badge&logo=raspberrypi&labelColor=black)
 
 | **Tech**                 | **Project**         |
 | ------------------------ | ------------------- |
