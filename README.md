@@ -77,14 +77,14 @@ Penetration Tester | Red Team Practitioner
   <img src="https://cyphercon.com/wp-content/uploads/2021/02/cyphercon-logo.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
-⏳ May 30-31st, 2025 THOTCON 0xD
+🥷🏼 May 30-31st, 2025 THOTCON 0xD
 [![](https://www.thotcon.org/)](https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png)
 
 <a href="https://www.thotcon.org/">
   <img src="https://sc-events.s3.amazonaws.com/d14a70ce-8701-454e-92b2-dec81091f61f_resize.png" alt="Custom Badge" style="width: 150px; height: auto;">
 </a>
 
-⏳ June 1st, 2025 Bsides 312
+🥷🏼 June 1st, 2025 Bsides 312
 [![](https://https://bsides312.org/)](https://bsides312.org/assets/img/logo.png)
 
 <a href="hhttps://bsides312.org/">
